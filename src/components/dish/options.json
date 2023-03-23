@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_dish_options",
+  "info": {
+    "displayName": "Options"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    },
+    "price": {
+      "type": "float"
+    }
+  }
+}

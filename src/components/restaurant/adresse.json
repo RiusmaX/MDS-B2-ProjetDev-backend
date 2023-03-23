@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_restaurant_adresses",
+  "info": {
+    "displayName": "Adresse"
+  },
+  "options": {},
+  "attributes": {
+    "street": {
+      "type": "string"
+    },
+    "postcode": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "coordinates": {
+      "displayName": "Coordinates",
+      "type": "component",
+      "repeatable": false,
+      "component": "restaurant.coordinates"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    }
+  }
+}
